@@ -2,11 +2,8 @@
 clc
 close all
 clear all
-% [X,Fs] = wavread('C:\Users\HRISHI\desktop\children\ar_15_e_13000');    %Input speech signal.
-[X,Fs] = wavread('C:\Users\HRISHI\desktop\N_SND_files\ashwini\a_u1'); 
-% [X,Fs] = wavread('C:\Users\HRISHI\documents\project code\sound_files\a_u2'); 
-% [X,Fs] = wavread('C:\Users\HRISHI\documents\project code\synthetic sounds\vu4f'); 
-% [X,Fs] = wavread('C:\Users\HRISHI\documents\project code\sound_files\h_i3');
+   
+[X,Fs] = wavread('C:\Users\');   %Input speech signal.
 
 %% Define window size, step size
 len1 = length(X);
